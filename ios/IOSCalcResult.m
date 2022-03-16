@@ -13,10 +13,6 @@
 
 // To export a module named RCTCalendarModule
 RCT_EXPORT_MODULE(IOSCalcResult);
-RCT_EXPORT_METHOD(createCalendarEvent:(NSString *)name location:(NSString *)location)
-{
- RCTLogInfo(@"Pretending to create an event %@ at %@", name, location);
-}
 
 RCT_EXPORT_METHOD(performCalc:(int)num1:(int)num2:(NSString *)operation:(RCTResponseSenderBlock)callback)
 {
